@@ -1,0 +1,5 @@
+CreateUProjectAndImportStarterFiles
+once you have creat a new empty project
+make sure you have close the Editor
+
+Drag this folder[EpicContent] to your Content folder from your fileManeger

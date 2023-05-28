@@ -1,0 +1,9 @@
+1.go to your content folder and creat a material,
+   and reopen the complete project find the material[M_BloodMask]and the[M_BloodRender]
+2.copy the material link from the complete one,
+  or if you like, you can serach for nodes and complete them one by one.
+3.after done the M_BloodRender and the M_BloodMask,right click M_BloodMask and [CreatMaterialInstance]
+  the new instance will be the cloth that used on the character,find the character,and asign the material instance
+  double click and open it ,change the instance's color so that each material now looks not all the same;
+  now you have your skined character with the Custom Material
+4.remenber the texture Exr_ForRVT,when you use it as the Texture of your material,it works as RuntimeVirtualTexture

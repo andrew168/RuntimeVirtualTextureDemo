@@ -1,0 +1,11 @@
+1.open your uproject and creat a empty level
+2.drag some box so and add some lights 
+3.add your playerstartpoint
+4.drag the texture into your content folder while your editor is running, make sure import correct
+5.go to the peojectSettings  Search for "RunTimeVirtualTexture" and enable it,restart your editor
+6.find the Exr_ForRVT and right click it ,convert it to Virtual Texture;
+7.add the VirtualTextureVolume to your world and go to content right click and creat blueprintclass[virtualtexture]
+   set it to the details of the VirtualTextureVolume as the Virtual TextureVolume,click build and choose your data location
+  now you are able to use VirtualTextureRuntime.
+8.you can double click and open the new VirualTexture you created
+  and there are a lot of value,this value are the solution of your runtimeVirtual's Rendering settings

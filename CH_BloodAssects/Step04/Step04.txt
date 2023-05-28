@@ -1,0 +1,4 @@
+1.Creat your new c++Class chosse the ActorComponent as the parent class
+2.open it and copy the codes into it(or you can type one by one as you like)
+3.compile and reopen the editor
+4.once you compile your C++ successfully ,you can see a new C++class in your project

@@ -1,0 +1,20 @@
+Begin Object Class=/Script/Engine.Skeleton Name="FPGun_Skeleton"
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_0"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_1"
+   End Object
+   Begin Object Name="SkeletalMeshSocket_0"
+      SocketName="Muzzle"
+      BoneName="Grip_Bone"
+      RelativeLocation=(X=52.961586,Y=-0.000002,Z=11.336590)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_1"
+      SocketName="GripPoint"
+      BoneName="Grip_Bone"
+      RelativeLocation=(X=-0.000013,Y=2.567705,Z=0.000000)
+      RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=0.000000)
+   End Object
+   BoneTree(5)=()
+   Sockets(0)=SkeletalMeshSocket'"SkeletalMeshSocket_0"'
+   Sockets(1)=SkeletalMeshSocket'"SkeletalMeshSocket_1"'
+End Object

@@ -1,0 +1,429 @@
+Begin Object Class=/Script/Engine.Material Name="M_BloodRender"
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCustom Name="MaterialExpressionCustom_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCustom Name="MaterialExpressionCustom_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPreSkinnedNormal Name="MaterialExpressionPreSkinnedNormal_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPreSkinnedPosition Name="MaterialExpressionPreSkinnedPosition_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSphereMask Name="MaterialExpressionSphereMask_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureObject Name="MaterialExpressionTextureObject_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransformPosition Name="MaterialExpressionTransformPosition_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionWorldPosition Name="MaterialExpressionWorldPosition_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionWorldPosition Name="MaterialExpressionWorldPosition_4"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_0"
+      A=(Expression=MaterialExpressionComponentMask'"M_BloodRender:MaterialExpressionComponentMask_1"')
+      B=(Expression=MaterialExpressionComponentMask'"M_BloodRender:MaterialExpressionComponentMask_5"')
+      MaterialExpressionEditorX=1584
+      MaterialExpressionEditorY=1216
+      MaterialExpressionGuid=4B250D5B4E2D3D34661D20BE6B8E660A
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_0"
+      SizeX=992
+      SizeY=304
+      Text="Transforms all vertices like a UV"
+      CommentColor=(R=0.200000,G=0.200000,B=0.200000,A=1.000000)
+      MaterialExpressionEditorX=672
+      MaterialExpressionEditorY=736
+      MaterialExpressionGuid=3BB14A7742750C662C5307AF15B20F8D
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_3"
+      SizeX=1232
+      SizeY=480
+      Text="Alpha blend"
+      MaterialExpressionEditorX=464
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=C3D137D5483D4001F262BE9F71C1D036
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_0"
+      Input=(Expression=MaterialExpressionPreSkinnedPosition'"M_BloodRender:MaterialExpressionPreSkinnedPosition_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      R=True
+      G=True
+      MaterialExpressionEditorX=1360
+      MaterialExpressionEditorY=1104
+      MaterialExpressionGuid=C4D13957472E538B7AD53491643DB5DD
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_1"
+      Input=(Expression=MaterialExpressionPreSkinnedPosition'"M_BloodRender:MaterialExpressionPreSkinnedPosition_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=True
+      MaterialExpressionEditorX=1360
+      MaterialExpressionEditorY=1184
+      MaterialExpressionGuid=C4D13957472E538B7AD53491643DB5DD
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_3"
+      Input=(Expression=MaterialExpressionVectorParameter'"M_BloodRender:MaterialExpressionVectorParameter_6"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      R=True
+      G=True
+      B=True
+      MaterialExpressionEditorX=-16
+      MaterialExpressionEditorY=352
+      MaterialExpressionGuid=7C61998C4EC22D0B78D09195F5AC6571
+      Material=Material'"M_BloodRender"'
+      Desc="Local Hit Position"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_5"
+      Input=(Expression=MaterialExpressionPreSkinnedNormal'"M_BloodRender:MaterialExpressionPreSkinnedNormal_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      R=True
+      MaterialExpressionEditorX=1360
+      MaterialExpressionEditorY=1264
+      MaterialExpressionGuid=C4D13957472E538B7AD53491643DB5DD
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_6"
+      Input=(Expression=MaterialExpressionMaterialFunctionCall'"M_BloodRender:MaterialExpressionMaterialFunctionCall_11"',OutputIndex=2)
+      R=True
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=FE8160694686FEA292AEC1BB2CDBAE9C
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_2"
+      Constant=(R=32.000000,G=32.000000,B=32.000000,A=0.000000)
+      MaterialExpressionEditorX=-848
+      MaterialExpressionEditorY=768
+      MaterialExpressionGuid=6667CBC44AA7F46526A1A3B234046FE9
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_3"
+      Constant=(R=1.000000,G=0.000000,B=0.000000,A=0.000000)
+      MaterialExpressionEditorX=816
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=651376874811192BC86D07BC131117F5
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionCustom_0"
+      Code="float3 a1 = float3((a - 0.5) * 1000 ,  0);\r\n\r\n\r\nfloat3 a2= a1-b;\r\n\r\n\r\nfloat3 a3 = a2-0.5;\r\n\r\n\r\nreturn a3;"
+      Description="Custom2"
+      Inputs(0)=(InputName="a",Input=(Expression=MaterialExpressionTextureCoordinate'"M_BloodRender:MaterialExpressionTextureCoordinate_14"'))
+      Inputs(1)=(InputName="b",Input=(Expression=MaterialExpressionTransformPosition'"M_BloodRender:MaterialExpressionTransformPosition_3"'))
+      MaterialExpressionEditorX=1264
+      MaterialExpressionEditorY=848
+      MaterialExpressionGuid=AFBE1D5840692FFE015BB7A15089784F
+      Material=Material'"M_BloodRender"'
+      Desc="Transforms all vertices"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionCustom_2"
+      Code="float3 a1 = a-b;\r\n\r\nfloat3 a2 =clamp(a1, 0.0, 1.0);\r\n\r\nfloat3 a3 = a2*d*c;\r\n\r\nfloat3 a4 =a3+b;\r\n\r\nfloat3 A = a4;\r\n\r\nreturn A ;"
+      Description="Custom1"
+      Inputs(0)=(InputName="a",Input=(Expression=MaterialExpressionConstant3Vector'"M_BloodRender:MaterialExpressionConstant3Vector_3"'))
+      Inputs(1)=(InputName="b",Input=(Expression=MaterialExpressionTextureSampleParameter2D'"M_BloodRender:MaterialExpressionTextureSampleParameter2D_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      Inputs(2)=(InputName="c",Input=(Expression=MaterialExpressionVectorParameter'"M_BloodRender:MaterialExpressionVectorParameter_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      Inputs(3)=(InputName="d",Input=(Expression=MaterialExpressionMaterialFunctionCall'"M_BloodRender:MaterialExpressionMaterialFunctionCall_8"',OutputIndex=1))
+      Inputs(4)=(InputName="e",Input=(Expression=MaterialExpressionTextureCoordinate'"M_BloodRender:MaterialExpressionTextureCoordinate_14"'))
+      Inputs(5)=(InputName="f",Input=(Expression=MaterialExpressionTransformPosition'"M_BloodRender:MaterialExpressionTransformPosition_3"'))
+      MaterialExpressionEditorX=1488
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=AFBE1D5840692FFE015BB7A15089784F
+      Material=Material'"M_BloodRender"'
+      Desc="Transforms all vertices"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_11"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/WorldAlignedTexture.WorldAlignedTexture"'
+      FunctionInputs(0)=(ExpressionInputId=4EE64DD049AC714D089AD6AAB1BFA0C8,Input=(Expression=MaterialExpressionTextureObject'"M_BloodRender:MaterialExpressionTextureObject_1"',InputName="TextureObject"))
+      FunctionInputs(1)=(ExpressionInputId=2C710AD6489D7B7213E379AD4846EBBB,Input=(Expression=MaterialExpressionConstant3Vector'"M_BloodRender:MaterialExpressionConstant3Vector_2"',InputName="TextureSize"))
+      FunctionInputs(2)=(ExpressionInputId=F9CEA7574004FF6704D0C5B341DB8F50,Input=(Expression=MaterialExpressionWorldPosition'"M_BloodRender:MaterialExpressionWorldPosition_4"',InputName="WorldPosition"))
+      FunctionInputs(3)=(ExpressionInputId=041C58BB4D6D46D766DE40A41673ECD6,Input=(OutputIndex=-1,InputName="Export Float 4"))
+      FunctionInputs(4)=(ExpressionInputId=ABB498D643904DF08C37A0B911766DDB,Input=(InputName="World Space Normal"))
+      FunctionInputs(5)=(ExpressionInputId=D2134BC94ED09D2F619E9DBED3E550CD,Input=(OutputIndex=-1,InputName="ProjectionTransitionContrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=C73948F34CBC303FB1D8F3A99E6B0324,Output=(OutputName="XY Texture"))
+      FunctionOutputs(1)=(ExpressionOutputId=DC35E13448C6765AA54072B08874BFD4,Output=(OutputName="Z Texture"))
+      FunctionOutputs(2)=(ExpressionOutputId=1B6AC1E04D115FD30866E4A895261285,Output=(OutputName="XYZ Texture"))
+      MaterialExpressionEditorX=-576
+      MaterialExpressionEditorY=768
+      MaterialExpressionGuid=F442DA6547A2874E28C49491A8F94249
+      Material=Material'"M_BloodRender"'
+      Outputs(0)=(OutputName="XY Texture")
+      Outputs(1)=(OutputName="Z Texture")
+      Outputs(2)=(OutputName="XYZ Texture")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=MaterialFunction'"/Game/Blood/Materials/MF_UVsToPreSkinned.MF_UVsToPreSkinned"'
+      FunctionInputs(0)=(ExpressionInputId=8DE0E884413DBF5CEFA8758E941C97E9,Input=(OutputIndex=-1,InputName="TexCoordXY"))
+      FunctionInputs(1)=(ExpressionInputId=C0F01B3540C3D6431B2DAFB23B7C1C5F,Input=(OutputIndex=-1,InputName="TexCoordZX"))
+      FunctionInputs(2)=(ExpressionInputId=C81311C94B1D937F14C8FA88E9126734,Input=(OutputIndex=-1,InputName="TexCoordYZ"))
+      FunctionOutputs(0)=(ExpressionOutputId=6BEACB5F4B0C85EB8B252FB72A985EBC,Output=(OutputName="LocalPosition"))
+      FunctionOutputs(1)=(ExpressionOutputId=8EC1DD0A45D2ABC0E4283A8693AB10DF,Output=(OutputName="LocalNormal"))
+      MaterialExpressionEditorX=-144
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=6A29623E4DDAA4E76C417FA70349B5AF
+      Material=Material'"M_BloodRender"'
+      Outputs(0)=(OutputName="LocalPosition")
+      Outputs(1)=(OutputName="LocalNormal")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_8"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/HeightLerp.HeightLerp"'
+      FunctionInputs(0)=(ExpressionInputId=522930F442483EA49A2C159D365AD20A,Input=(OutputIndex=-1,InputName="A"))
+      FunctionInputs(1)=(ExpressionInputId=DCC75A8E43017C3B1AF2AD94F32E13C5,Input=(OutputIndex=-1,InputName="B"))
+      FunctionInputs(2)=(ExpressionInputId=7AB68F0841F03075F06D038ED7950EBE,Input=(Expression=MaterialExpressionSphereMask'"M_BloodRender:MaterialExpressionSphereMask_2"',InputName="Transition Phase"))
+      FunctionInputs(3)=(ExpressionInputId=2D66D8C24B09717A97E8BEA535A4BDC8,Input=(Expression=MaterialExpressionMin'"M_BloodRender:MaterialExpressionMin_0"',InputName="Height Texture"))
+      FunctionInputs(4)=(ExpressionInputId=25E63B0149C87485647617BC60B64B95,Input=(OutputIndex=-1,InputName="Contrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=DB6322FA4F561176DCDD2DA917597668,Output=(OutputName="Results"))
+      FunctionOutputs(1)=(ExpressionOutputId=BD30F3BD4F03EC073582C193699130FD,Output=(OutputName="Alpha"))
+      FunctionOutputs(2)=(ExpressionOutputId=D985320A43D35E6B187D16931DD224EF,Output=(OutputName="Lerp Alpha No Contrast"))
+      MaterialExpressionEditorX=528
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=63DFE08C4AE815E3C2D7D1AEC28B50AD
+      Material=Material'"M_BloodRender"'
+      Outputs(0)=(OutputName="Results")
+      Outputs(1)=(OutputName="Alpha")
+      Outputs(2)=(OutputName="Lerp Alpha No Contrast")
+   End Object
+   Begin Object Name="MaterialExpressionMin_0"
+      A=(Expression=MaterialExpressionMultiply'"M_BloodRender:MaterialExpressionMultiply_3"')
+      MaterialExpressionEditorX=208
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=F7ECBA284CA7C34CC6FA11A3B7B1BE8D
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionPower'"M_BloodRender:MaterialExpressionPower_0"')
+      ConstB=1.500000
+      MaterialExpressionEditorX=32
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=8831CA284D4FF6C8520784AA8DA3B124
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionPower_0"
+      Base=(Expression=MaterialExpressionComponentMask'"M_BloodRender:MaterialExpressionComponentMask_6"')
+      ConstExponent=0.700000
+      MaterialExpressionEditorX=-144
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=96F32D74412AED366A6CABA62E9FC949
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionPreSkinnedNormal_0"
+      MaterialExpressionEditorX=1072
+      MaterialExpressionEditorY=1232
+      MaterialExpressionGuid=B82A99BD41AD15CD3FC203BD79472EA7
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionPreSkinnedPosition_0"
+      MaterialExpressionEditorX=1072
+      MaterialExpressionEditorY=1104
+      MaterialExpressionGuid=FBA044EF44EB07DD58A809AC05226CE0
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_10"
+      DefaultValue=15.000000
+      ParameterName="WoundRadius"
+      ExpressionGUID=519F1C87468E5F97DDC7E4B93C07B823
+      MaterialExpressionEditorX=-80
+      MaterialExpressionEditorY=672
+      MaterialExpressionGuid=D082113548240766F22A4F8465CD7AB0
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionSphereMask_2"
+      A=(Expression=MaterialExpressionComponentMask'"M_BloodRender:MaterialExpressionComponentMask_3"')
+      B=(Expression=MaterialExpressionMaterialFunctionCall'"M_BloodRender:MaterialExpressionMaterialFunctionCall_2"')
+      Radius=(Expression=MaterialExpressionScalarParameter'"M_BloodRender:MaterialExpressionScalarParameter_10"')
+      HardnessPercent=0.000000
+      MaterialExpressionEditorX=224
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=CBB01DDE421D6FB08402D0990213E0AA
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_14"
+      CoordinateIndex=1
+      MaterialExpressionEditorX=784
+      MaterialExpressionEditorY=848
+      MaterialExpressionGuid=136E38B34C2351724D6AC6BB1726B1AD
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_5"
+      CoordinateIndex=1
+      MaterialExpressionEditorX=992
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=136E38B34C2351724D6AC6BB1726B1AD
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureObject_1"
+      Texture=Texture2D'"/Game/Blood/Materials/T_Cave_Noise_14.T_Cave_Noise_14"'
+      MaterialExpressionEditorX=-848
+      MaterialExpressionEditorY=624
+      MaterialExpressionGuid=EF748F284D86BCA00C39C4BEDF710C2B
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_0"
+      ParameterName="BloodMask"
+      ExpressionGUID=87FDA23B4011EF636A434FBE6C046719
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'"M_BloodRender:MaterialExpressionTextureCoordinate_5"')
+      Texture=Texture2D'"/Game/Blood/Materials/T_Black_S.T_Black_S"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=1136
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=39194BFC44D4C98A40672C943C7EE01B
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionTransform_0"
+      Input=(Expression=MaterialExpressionCustom'"M_BloodRender:MaterialExpressionCustom_0"')
+      TransformSourceType=TRANSFORMSOURCE_Local
+      MaterialExpressionEditorX=1440
+      MaterialExpressionEditorY=832
+      MaterialExpressionGuid=0CE1CE284DFC245DD73837A68996CD7A
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionTransformPosition_3"
+      Input=(Expression=MaterialExpressionWorldPosition'"M_BloodRender:MaterialExpressionWorldPosition_0"')
+      TransformSourceType=TRANSFORMPOSSOURCE_World
+      MaterialExpressionEditorX=960
+      MaterialExpressionEditorY=928
+      MaterialExpressionGuid=1F6B255B425039535AD4C69F925C5F92
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=1.000000,G=0.000000,B=0.000000,A=0.000000)
+      ParameterName="Color"
+      ExpressionGUID=A84619E940A82A0E87C6CEBF339E1A2A
+      MaterialExpressionEditorX=816
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=B09C025040AD6FEF875A5CA354BF308B
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_6"
+      DefaultValue=(R=-63.416000,G=6.197000,B=127.802002,A=1.000000)
+      ParameterName="HitLocation"
+      ExpressionGUID=FB4B3D3747F4658E69F1F093A1847AF5
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=058FC5C34678383D8859C2900C0751EC
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionWorldPosition_0"
+      MaterialExpressionEditorX=752
+      MaterialExpressionEditorY=928
+      MaterialExpressionGuid=69F34EB54AFC480CC2F9B39EDF0A3802
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="MaterialExpressionWorldPosition_4"
+      WorldPositionShaderOffset=WPT_ExcludeAllShaderOffsets
+      MaterialExpressionEditorX=-1056
+      MaterialExpressionEditorY=912
+      MaterialExpressionGuid=959A150A46548F6CF4D37CAA100F5DD7
+      Material=Material'"M_BloodRender"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   EmissiveColor=(Expression=MaterialExpressionCustom'"MaterialExpressionCustom_2"')
+   Opacity=(OutputIndex=1)
+   ShadingModel=MSM_Unlit
+   ShadingModels=(ShadingModelField=1)
+   WorldPositionOffset=(Expression=MaterialExpressionTransform'"MaterialExpressionTransform_0"')
+   CustomizedUVs(3)=(Expression=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_0"')
+   CustomizedUVs(4)=(Expression=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_0"')
+   TwoSided=True
+   bAllowNegativeEmissiveColor=True
+   NumCustomizedUVs=5
+   bUsedWithSkeletalMesh=True
+   bUsedWithMorphTargets=True
+   bUsedWithClothing=True
+   EditorX=1824
+   EditorY=528
+   Expressions(0)=MaterialExpressionCustom'"MaterialExpressionCustom_2"'
+   Expressions(1)=MaterialExpressionTransform'"MaterialExpressionTransform_0"'
+   Expressions(2)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_0"'
+   Expressions(3)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_0"'
+   Expressions(4)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_8"'
+   Expressions(5)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"'
+   Expressions(6)=MaterialExpressionSphereMask'"MaterialExpressionSphereMask_2"'
+   Expressions(7)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_6"'
+   Expressions(8)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_10"'
+   Expressions(9)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_14"'
+   Expressions(10)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_3"'
+   Expressions(11)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_11"'
+   Expressions(12)=MaterialExpressionTextureObject'"MaterialExpressionTextureObject_1"'
+   Expressions(13)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_6"'
+   Expressions(14)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_2"'
+   Expressions(15)=MaterialExpressionWorldPosition'"MaterialExpressionWorldPosition_4"'
+   Expressions(16)=MaterialExpressionPower'"MaterialExpressionPower_0"'
+   Expressions(17)=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"'
+   Expressions(18)=MaterialExpressionMin'"MaterialExpressionMin_0"'
+   Expressions(19)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_3"'
+   Expressions(20)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_0"'
+   Expressions(21)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_5"'
+   Expressions(22)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"'
+   Expressions(23)=MaterialExpressionCustom'"MaterialExpressionCustom_0"'
+   Expressions(24)=MaterialExpressionWorldPosition'"MaterialExpressionWorldPosition_0"'
+   Expressions(25)=MaterialExpressionTransformPosition'"MaterialExpressionTransformPosition_3"'
+   Expressions(26)=MaterialExpressionPreSkinnedPosition'"MaterialExpressionPreSkinnedPosition_0"'
+   Expressions(27)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_1"'
+   Expressions(28)=MaterialExpressionPreSkinnedNormal'"MaterialExpressionPreSkinnedNormal_0"'
+   Expressions(29)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_5"'
+   EditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_0"'
+   EditorComments(1)=MaterialExpressionComment'"MaterialExpressionComment_3"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=4CBD73E44E6227ADFA94658D92646C4C
+   CachedExpressionData=(Parameters=(RuntimeEntries[0]=(NameHashes=(17218339618718883119),ParameterInfos=((Name="WoundRadius")),ExpressionGuids=(519F1C87468E5F97DDC7E4B93C07B823)),RuntimeEntries[1]=(NameHashes=(5676896111310115224,12279385124011487613),ParameterInfos=((Name="HitLocation"),(Name="Color")),ExpressionGuids=(FB4B3D3747F4658E69F1F093A1847AF5,A84619E940A82A0E87C6CEBF339E1A2A)),RuntimeEntries[2]=(NameHashes=(4707262083945364628),ParameterInfos=((Name="BloodMask")),ExpressionGuids=(87FDA23B4011EF636A434FBE6C046719)),ScalarValues=(15.000000),VectorValues=((R=-63.416000,G=6.197000,B=127.802002,A=1.000000),(R=1.000000,G=0.000000,B=0.000000,A=0.000000)),TextureValues=(Texture2D'"/Game/Blood/Materials/T_Black_S.T_Black_S"'),ScalarMinMaxValues=((X=0.000000,Y=0.000000)),ScalarCurveValues=(None),ScalarCurveAtlasValues=(None),VectorChannelNameValues=((),()),VectorUsedAsChannelMaskValues=(False,False),TextureChannelNameValues=(())),ReferencedTextures=(None,Texture2D'"/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse"',Texture2D'"/Game/Blood/Materials/T_Cave_Noise_14.T_Cave_Noise_14"',Texture2D'"/Game/Blood/Materials/T_Black_S.T_Black_S"'),FunctionInfos=((StateId=939890A74048BB34FEA7A5B548893EE8,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.LinearGradient"'),(StateId=B3A5FD9A4C55EA940BC8909C824D04B2,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast"'),(StateId=4AC359F04396813B98610F8ACBBE6D09,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/HeightLerp.HeightLerp"'),(StateId=939890A74048BB34FEA7A5B548893EE8,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.LinearGradient"'),(StateId=B3A5FD9A4C55EA940BC8909C824D04B2,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast"'),(StateId=939890A74048BB34FEA7A5B548893EE8,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.LinearGradient"'),(StateId=B3A5FD9A4C55EA940BC8909C824D04B2,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast"'),(StateId=725EF2AB458E7DC8347A86BF6BAB22A7,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/WorldAlignedTexture.WorldAlignedTexture"'),(StateId=486620B84D84851C1FEE0BA86A3B94F7,Function=MaterialFunction'"/Game/Blood/Materials/MF_UVsToPreSkinned.MF_UVsToPreSkinned"')),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=1527895B486A4875F7ECF8B7C23928F6
+   ReferencedTextureGuids(1)=13706F8343774129C2315CBFCB79CD7C
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Black_S",TextureReference=/Game/Blood/Materials/T_Black_S.T_Black_S)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12Global", True))
+   LightingGuid=B5EDE44F49ED251609025DA9F37D7D34
+End Object

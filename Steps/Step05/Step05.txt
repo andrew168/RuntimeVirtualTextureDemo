@@ -1,6 +1,0 @@
-1.right clike and creat the blueprintClass choose character and named it BP_Character(customName);
-2.open your BP_Character,and set the mesh as the previews mesh (the mesh that has custom Material one,check step02)
-3.add your compliled BloodComponent to your character blueprint,
-4.click the Blood Component and find the Blood RenderMaterial Asset value,choose the M_BloodRender as the value;
-5.reopen the complete one,open the BP_BloodPeople,and do the blueprint line connect base on the compelete one ,
-  or you can just select all and copy it to new Blueprint;Compile it make sure no error exist;

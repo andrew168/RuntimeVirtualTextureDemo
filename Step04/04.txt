@@ -3,7 +3,7 @@ and copy the C++ code from the compelete one;
 combine and go to the third person’s  blueprint, open it
 add the C++ component you have just create
 in the details of the component, find [BloodRenderMaterialAsset],choose M_BloodRender as the defaultValue;
-and remenber to set (Pitch=-90.000000,Yaw=0.000000,Roll=-90.000000) as Texture2DRelative Transform in the details of the CH_Blood;
+and remenber to set (Pitch=-90.000000,Yaw=0.000000,Roll=-90.000000) as Texture2DRelative Transform's Rotation(the location and the scale should keep it as default) in the details of the CH_Blood;
 set the CapsuleComponent of the thridPersonCharacter 's collision as {Pawn}Presets
 set the Mesh 's collision as worldDynamic ; CollisionEnable:(QueryAndPhysics)
 

@@ -5,9 +5,3 @@
 3import the textures[Textures folder]while your editor open
 
 4find the Exr_ForRVT,and right click it , translate it into VirtualTexture;
-
-5add a VitrualTextureVolume to your first person world,create a VirtualTexture,
- and asign it to the VirtualTextureVolume's Details
-click build and select your target
-
-6.click Add button,and choose third person templete ,import it ,now you have your thirdperson character

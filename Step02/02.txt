@@ -5,3 +5,9 @@
 3import the textures[Textures folder]while your editor open
 
 4find the Exr_ForRVT,and right click it , translate it into VirtualTexture;
+
+5. now you have your engine VirtualTextureRuntime enabled,and when your render target's
+position is inside the RVT volume, the render methrid will using the VT,and there is a node
+in material editor,it named switchVirtualTexture,it has two input ,one out put ,when your 
+target object(object that using this material)in the VT volume, this node will output {ture}
+other wise it will output false;

@@ -7,7 +7,9 @@ right click create material and open it ,copy the complete material nodes to the
 
 after done it ,you have 2material and 2Material Function in your project,
 
+
 right click M_BloodMask and create materialInstance,this MaterialInsatance will be use as the characters cloth material;
+redo it 7 times ,so that you get 7 materialInstance ,which will be use into the character's cloth;
 
 go to the third person's mesh ,and change the material to the materialInstance you have just create,and in the base color ,it
-is the basecolor of your character,(you can change it if you have your character's Base texture;)
+is the basecolor of your character,(you can change it if you have your own character's Base texture;)

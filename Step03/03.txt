@@ -5,7 +5,7 @@ in material editor named switchVirtualTexture,when your render target's,and,it h
 target object(object that using this material)in the VT volume, this node will output {ture} other wise it will output {false};]
 
 right click create material and open it ,copy the complete material nodes to the graph,or you can do it by connect one by one as the compelete virsion
-,do this twice for [M_BloodMask]and[M_BloodRender],in the Details search for "Cutom",find [Customized UVs]set it into 5
+,do this twice for [M_BloodMask]and[M_BloodRender],in the Details search for "Custom",find [Customized UVs]set it into 5
 
 
 after done it ,you have 2material and 2Material Function in your project,

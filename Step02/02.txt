@@ -1,9 +1,0 @@
-1open your project, go to settings and search "Virtual"
-
-2find the VirtualTextureRuntime,and enable it, restart your Engine
-
-3import the textures[Textures folder]while your editor open
-
-4find the Exr_ForRVT,and right click it , translate it into VirtualTexture;
-
-5. now you have your engine VirtualTextureRuntime enabled

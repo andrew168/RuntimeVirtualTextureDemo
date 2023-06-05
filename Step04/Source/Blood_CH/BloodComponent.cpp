@@ -52,7 +52,7 @@ void UBloodComponent::Initialize(USkeletalMeshComponent* SkeletalMesh, USceneCap
 
 
 		SceneCaptureComponent2D->ProjectionType = ECameraProjectionMode::Orthographic;
-		SceneCaptureComponent2D->OrthoWidth = 1000.f;
+		SceneCaptureComponent2D->OrthoWidth =1000.f;
 		SceneCaptureComponent2D->CompositeMode = ESceneCaptureCompositeMode::SCCM_Composite;
 		SceneCaptureComponent2D->bCaptureEveryFrame = false;
 		SceneCaptureComponent2D->bCaptureOnMovement = false;
@@ -100,7 +100,7 @@ void UBloodComponent::Initialize(USkeletalMeshComponent* SkeletalMesh, USceneCap
 
 		InitializeMaterials();
 
-		//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, FString::Printf(TEXT("RefPoseBoneTransform Length: %d"), GetMesh()->GetNumMaterials()));
+		//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, FString::Printf(TEXT("RefPoseBoneTransform Length: %d,,Init Done"), GetMesh()->GetNumMaterials()));
 	}
 }
 
@@ -249,7 +249,6 @@ void UBloodComponent::TakeHit(FName BoneName, FVector WorldSpaceLocation)
 	for (int i = 0; i <= GetMesh()->GetNumMaterials(); i++) 
 		{
 			GetMesh()->SetMaterial(i, BloodRenderMaterial);
-			
 		}
 
 	//ok

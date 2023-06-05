@@ -2,24 +2,21 @@ add a C++class,choose Actor component as the parent class;
 
 and copy the C++ code from the compelete one;
 
-combine and go to the third person’s  blueprint, open it
 
-add the C++ component you have just create
+add a C++class ,choose Character as the parent class,
+copy code from the complete one,compile and open it;
 
-in the details of the component, find [BloodRenderMaterialAsset],choose M_BloodRender as the defaultValue;
+(make sure you add ActorComponent class first,because the character class has the refrence of the actorcomponent one)
 
-and remenber to set (Pitch=-90.000000,Yaw=0.000000,Roll=-90.000000) as Texture2DRelative Transform's Rotation(the location and the scale should keep it as default) in the details of the CH_Blood;
 
-set the CapsuleComponent of the thridPersonCharacter 's collision as {Pawn}Presets
+combine and go to the third person's  blueprint, open it
 
-set the Mesh 's collision as worldDynamic ; CollisionEnable:(QueryAndPhysics)
+in the details of the bloodcomponent, find [BloodRenderMaterialAsset],choose M_BloodRender as the defaultValue;
 
-in graph of this Thridpersoncharacter,copy the graph from the compeleted one ,{the graph is using as initialize and call a TakeHitFunction,you 
-can use different way to call it as you want}
-
-go to the firstpersonCharacter, copy the blueprint from the complete one,noticed:when you copy please make sure you have
-copy the function's logic as well
-(all this function do is to call a TakeDamage to the target[thirdpersoncharacter])
+and remenber to set 
+{location(0,0,250)
+Rotation(-90,0,Roll=-90) as Texture2DRelative 
+scale(1,1,250)}Transfome in the details of the CH_Blood
 
 
 now every thing should be work

@@ -1,0 +1,23 @@
+add a C++class,choose Actor component as the parent class;
+
+and copy the C++ code from the compelete one;
+
+
+add a C++class ,choose Character as the parent class,
+copy code from the complete one,compile and open it;
+
+(make sure you add ActorComponent class first,because the character class has the refrence of the actorcomponent one)
+
+
+combine and go to the third person's  blueprint, open it
+
+in the details of the bloodcomponent, find [BloodRenderMaterialAsset],choose M_BloodRender as the defaultValue;
+
+and remenber to set 
+{location(0,0,250)
+Rotation(-90,0,Roll=-90) as Texture2DRelative 
+scale(1,1,250)}Transfome in the details of the CH_Blood
+
+
+now every thing should be work
+and you can enjoy it!
